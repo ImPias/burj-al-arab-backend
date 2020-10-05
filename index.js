@@ -62,7 +62,7 @@ client.connect(err => {
 });
 
 app.get('/', (req, res) => {
-    res.send("Hello from Burj-Al-Arab");
+    res.send("Hello from Burj-Al-Arabs");
 })
 
 app.listen(process.env.PORT || port);
